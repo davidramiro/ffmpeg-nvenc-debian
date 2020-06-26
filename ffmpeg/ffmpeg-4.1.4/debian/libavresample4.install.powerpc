@@ -1,0 +1,2 @@
+usr/lib/*/libavresample.so.*
+usr/lib/*/*/libavresample.so.*

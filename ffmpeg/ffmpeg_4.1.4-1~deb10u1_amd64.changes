@@ -1,0 +1,153 @@
+Format: 1.8
+Date: Fri, 16 Aug 2019 00:05:06 +0200
+Source: ffmpeg
+Binary: ffmpeg ffmpeg-dbgsym ffmpeg-doc libavcodec-dev libavcodec-extra libavcodec-extra58 libavcodec-extra58-dbgsym libavcodec58 libavcodec58-dbgsym libavdevice-dev libavdevice58 libavdevice58-dbgsym libavfilter-dev libavfilter-extra libavfilter-extra7 libavfilter-extra7-dbgsym libavfilter7 libavfilter7-dbgsym libavformat-dev libavformat58 libavformat58-dbgsym libavresample-dev libavresample4 libavresample4-dbgsym libavutil-dev libavutil56 libavutil56-dbgsym libpostproc-dev libpostproc55 libpostproc55-dbgsym libswresample-dev libswresample3 libswresample3-dbgsym libswscale-dev libswscale5 libswscale5-dbgsym
+Architecture: amd64 all
+Version: 7:4.1.4-1~deb10u1
+Distribution: buster-security
+Urgency: medium
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Changed-By: Moritz Mühlenhoff <jmm@debian.org>
+Description:
+ ffmpeg     - Tools for transcoding, streaming and playing of multimedia files
+ ffmpeg-doc - Documentation of the FFmpeg multimedia framework
+ libavcodec-dev - FFmpeg library with de/encoders for audio/video codecs - developm
+ libavcodec-extra - FFmpeg library with extra codecs (metapackage)
+ libavcodec-extra58 - FFmpeg library with additional de/encoders for audio/video codecs
+ libavcodec58 - FFmpeg library with de/encoders for audio/video codecs - runtime
+ libavdevice-dev - FFmpeg library for handling input and output devices - developmen
+ libavdevice58 - FFmpeg library for handling input and output devices - runtime fi
+ libavfilter-dev - FFmpeg library containing media filters - development files
+ libavfilter-extra - FFmpeg library with extra filters (metapackage)
+ libavfilter-extra7 - FFmpeg library with extra media filters - runtime files
+ libavfilter7 - FFmpeg library containing media filters - runtime files
+ libavformat-dev - FFmpeg library with (de)muxers for multimedia containers - develo
+ libavformat58 - FFmpeg library with (de)muxers for multimedia containers - runtim
+ libavresample-dev - FFmpeg compatibility library for resampling - development files
+ libavresample4 - FFmpeg compatibility library for resampling - runtime files
+ libavutil-dev - FFmpeg library with functions for simplifying programming - devel
+ libavutil56 - FFmpeg library with functions for simplifying programming - runti
+ libpostproc-dev - FFmpeg library for post processing - development files
+ libpostproc55 - FFmpeg library for post processing - runtime files
+ libswresample-dev - FFmpeg library for audio resampling, rematrixing etc. - developme
+ libswresample3 - FFmpeg library for audio resampling, rematrixing etc. - runtime f
+ libswscale-dev - FFmpeg library for image scaling and various conversions - develo
+ libswscale5 - FFmpeg library for image scaling and various conversions - runtim
+Changes:
+ ffmpeg (7:4.1.4-1~deb10u1) buster-security; urgency=medium
+ .
+   * New upstream release
+Checksums-Sha1:
+ e5a8680ed1a3e041664c63f26bdf4b139f508e61 695532 ffmpeg-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 9db12ae3fa168128624a7d31ab18bb886588c25e 2053492 ffmpeg-doc_4.1.4-1~deb10u1_all.deb
+ 58e6678b6579b7b87ebd87b4979c45e205a76b4a 28811 ffmpeg_4.1.4-1~deb10u1_amd64.buildinfo
+ 15c1f9bb0fb1e2e8ab6b43e117ff7592bdea8ad5 1425304 ffmpeg_4.1.4-1~deb10u1_amd64.deb
+ fe32f72a0f957cdda1c8075bf99090c68a09c788 5338684 libavcodec-dev_4.1.4-1~deb10u1_amd64.deb
+ 8555e485352b1fded6108043285f1538fe7dc0ce 20099200 libavcodec-extra58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 7f6c77b56686251eb6b09f77541c6c6b7d9a6819 4821580 libavcodec-extra58_4.1.4-1~deb10u1_amd64.deb
+ 4bcc7513ab6e14e0b2b1b091b4fd334211771531 54076 libavcodec-extra_4.1.4-1~deb10u1_all.deb
+ 03852b0e4cd2290054a5b9d8776a9a470b27080f 20089320 libavcodec58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 4a407caa282ba16f49abd9404088eaed1f10cbde 4820408 libavcodec58_4.1.4-1~deb10u1_amd64.deb
+ f0b0ba7de56eb1367aed3d41ab0bf56daca439c2 125824 libavdevice-dev_4.1.4-1~deb10u1_amd64.deb
+ 496374ac726cfd37759443272487b4192a9b6ffb 496356 libavdevice58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 004b13070472e75a8a68503526093b6692889e08 114460 libavdevice58_4.1.4-1~deb10u1_amd64.deb
+ 7f204e0e0f176cc986baa04e727e70054378668d 1200660 libavfilter-dev_4.1.4-1~deb10u1_amd64.deb
+ 56daec67114194daf3d54cf719b319a718054463 3851484 libavfilter-extra7-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ d09ae6c6fac4f1b37b4c23ec54cb921143b324fe 1042048 libavfilter-extra7_4.1.4-1~deb10u1_amd64.deb
+ 56692d1313ee23e307f292d15077e1bcc3c0670b 54076 libavfilter-extra_4.1.4-1~deb10u1_all.deb
+ f592d16c0ad57efcbc14d690b6606e298b182298 3835908 libavfilter7-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 605f4f321c61b43eb1f6d3c23faab5f95f6e1715 1038512 libavfilter7_4.1.4-1~deb10u1_amd64.deb
+ 12fb5225ea72273405ee591e3d55b326a8b7e046 1198192 libavformat-dev_4.1.4-1~deb10u1_amd64.deb
+ 3327d0268d877f36a0455e467b20108bef4cc10d 6466492 libavformat58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 8a1114cbda17d96908442d1ad4101dd48b1114d9 1000048 libavformat58_4.1.4-1~deb10u1_amd64.deb
+ b76be257b0e73dd0beff66d203278831f221c841 102468 libavresample-dev_4.1.4-1~deb10u1_amd64.deb
+ 799c65b6d13ec85bcb09303fd41ae21613887a2c 97344 libavresample4-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 7130af1cb1cf0e1e18ff45c3585c0fbaad82eb3a 92724 libavresample4_4.1.4-1~deb10u1_amd64.deb
+ 5843e335586d9a8211584450ee40a6ec91d8be7f 349056 libavutil-dev_4.1.4-1~deb10u1_amd64.deb
+ 6c4fdd4c9c9aea82b5826eeab2c97939f9344f5a 440708 libavutil56-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ aa2c7063fe8258b404465bf2408f7dcc79d48403 231072 libavutil56_4.1.4-1~deb10u1_amd64.deb
+ fd492e3daeace35209a5670068920f3bd4f7025e 92212 libpostproc-dev_4.1.4-1~deb10u1_amd64.deb
+ e951a10dbaf077e72ca48006621371f63a4b4d43 87308 libpostproc55-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 0a25b88ec1d0b7d2fdcfec66025ab4f8add8ac76 91728 libpostproc55_4.1.4-1~deb10u1_amd64.deb
+ b42efb7b8f372edfb0b71a76ec5c4767229ee452 109112 libswresample-dev_4.1.4-1~deb10u1_amd64.deb
+ 24933f73d517d667eb85151489f9fa59ee80ddd1 105400 libswresample3-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 344b6d8c694cf3ac03ea7ccfd7f207eec51b2486 95692 libswresample3_4.1.4-1~deb10u1_amd64.deb
+ 988766228c804cc978aaf78b47c78c54827bb795 211876 libswscale-dev_4.1.4-1~deb10u1_amd64.deb
+ 2e1060397f4a03e5d38ce1c7cb127f85567174d5 674760 libswscale5-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 3473af6f6c643f2068cd3416d483a91df1b9664f 193056 libswscale5_4.1.4-1~deb10u1_amd64.deb
+Checksums-Sha256:
+ 426aba0a8466186f9b726c30710548f81b0278e9e2dcdf09d5ba2684abcafb68 695532 ffmpeg-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 552226befb31ff28245e4b018accab6ebe1803b5a472aeb576f929f9c173f363 2053492 ffmpeg-doc_4.1.4-1~deb10u1_all.deb
+ 8758870c0bcbf8d6117fdd8435f846fa35c6bb2e16ec720d073fbc472cdafa01 28811 ffmpeg_4.1.4-1~deb10u1_amd64.buildinfo
+ e9de7a48ae8bc483f53121fb578fad566c28db370aae230995c92dc026332582 1425304 ffmpeg_4.1.4-1~deb10u1_amd64.deb
+ 278f9d992f7db40899947f254d1dfd3f54d03671308a48ea45ab7efc765696be 5338684 libavcodec-dev_4.1.4-1~deb10u1_amd64.deb
+ 0538b6469f2c7e2fcd7ef27a33ab1ce2ded137555430716ebb15d4c7b4e403bf 20099200 libavcodec-extra58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 0f828921405a6f00b98d3c47f7892c57dd487f4fc184a7adc308664f7ba30894 4821580 libavcodec-extra58_4.1.4-1~deb10u1_amd64.deb
+ d25f4f8dd26be58d3f30cc470d7e6bfdc2ce2fa00309a902d66837c7fe018e05 54076 libavcodec-extra_4.1.4-1~deb10u1_all.deb
+ 9882c226aa655008acb0b34e79de509e4fc7687e19a2303ab1ae548a83881661 20089320 libavcodec58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 9c1d8cf8b3ea8fb3bbc961d3d62aa53dfa7ff63e9a830d73001d056847618298 4820408 libavcodec58_4.1.4-1~deb10u1_amd64.deb
+ 214e94a4205b968f372f194e15d18cf7613a3ac7c11d10c0cca6ae61536bb5bf 125824 libavdevice-dev_4.1.4-1~deb10u1_amd64.deb
+ 4bc665c504c1c75458b67ca8114538b7f09ed08c7f01b64c9bfead76c81eeb72 496356 libavdevice58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 93a70b50adfd876063883294a64ec6f342e8b50994f393266d04116ee95fc859 114460 libavdevice58_4.1.4-1~deb10u1_amd64.deb
+ e74ea03c35b85cd55f03e8b7c97fecf661b7e649e368a62a4b818a016aefc65f 1200660 libavfilter-dev_4.1.4-1~deb10u1_amd64.deb
+ 9a296272bd0c9a265fb9894650584e5cce8a500a389694b2a43ac49ecf2a9603 3851484 libavfilter-extra7-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ aaeaf8374ad95a6da3eaeb8fc298a40199010e8bc77ce2ff003f54d6456331c8 1042048 libavfilter-extra7_4.1.4-1~deb10u1_amd64.deb
+ 346d1a8105f689c996231b02e1805ce4366195f4315b7626607388cb796882a4 54076 libavfilter-extra_4.1.4-1~deb10u1_all.deb
+ b293586c10041368262e1236c66fdaa7ede079994bb71c3469a95b301c6806e9 3835908 libavfilter7-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 35074c47324d73f4b1bc51c781e23c27719803b41e5352ecd2123cc3105052b2 1038512 libavfilter7_4.1.4-1~deb10u1_amd64.deb
+ 74f8f220f91b09514aee4082c6517d82e2903ae3a93c5182a9d5172071b4bce3 1198192 libavformat-dev_4.1.4-1~deb10u1_amd64.deb
+ 6d495b722ce10208d076575181ac0094fc2d993ad077396b7b5e126c4082b7f9 6466492 libavformat58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ f6dcfd9e51021e208dcab3c6810ac1248ca7ed4dc6422537e29a6d37c816e60b 1000048 libavformat58_4.1.4-1~deb10u1_amd64.deb
+ d33a192f435f1ca2a2e8d1c76f3a745423666c5e57c4041249743adc6917dcc1 102468 libavresample-dev_4.1.4-1~deb10u1_amd64.deb
+ b9157afc3a6768a4e55144efa6d488558988eae0d8da4b5a50d0d653ea27377c 97344 libavresample4-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 22c4dbc129e1f67e8c9b0a50c05aafe4ed21eed1b825a39f356e3d2b2a4cbcd4 92724 libavresample4_4.1.4-1~deb10u1_amd64.deb
+ 86e51f1ea97e7cff3be0fed846e20dd91d4c75e0ac85b107df28243fe4c7f45a 349056 libavutil-dev_4.1.4-1~deb10u1_amd64.deb
+ 650599a4b3a0608f3db04b056f97bea123a1e18aa1a87e3c41bf8caab19674a8 440708 libavutil56-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 375eb5eecb3efe85672f321e5ebde1f8e47230bcabdb0cab839f43e413bd07fa 231072 libavutil56_4.1.4-1~deb10u1_amd64.deb
+ 728f517f8a930db0a198571d591fa790476389713f72d7a95a4e41ebbdafc20e 92212 libpostproc-dev_4.1.4-1~deb10u1_amd64.deb
+ a1fdfa5b793d201e7957d067f16991cdc163914bf6476c04beb1c8366812fe53 87308 libpostproc55-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ ea1d4d0e103bb0af2dff3c5dd470db86306a355224c3b99bbf18f24219dba25f 91728 libpostproc55_4.1.4-1~deb10u1_amd64.deb
+ f3f1a10ba6f95b35d2c2c272cf66d51fc166bf589044f8cbf8376008b12cce38 109112 libswresample-dev_4.1.4-1~deb10u1_amd64.deb
+ 655bccb6160e5e24524a40c4ee6b371a29ce0fce37536a5ab298cb23a1af5613 105400 libswresample3-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 41950f8346f92b2208fe013fec0b722448be6bc4d20d4f161a8aa3b13edd4a74 95692 libswresample3_4.1.4-1~deb10u1_amd64.deb
+ d445fcb352b8810f0c6f844a0bc2dab8e7ccdb14846677a35489951543c6b969 211876 libswscale-dev_4.1.4-1~deb10u1_amd64.deb
+ 87d28750a3c927fd39db2d399155900ff3d80be613b8538ba809f840360b0608 674760 libswscale5-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 1f74aaa422e55fe2ac43633a9034e432d8c9ba986d53bea361ac82152c364ea3 193056 libswscale5_4.1.4-1~deb10u1_amd64.deb
+Files:
+ ae6d635f4949507f51926c0e2811dca7 695532 debug optional ffmpeg-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 1e442d2a624e9f450380f1a5236f5950 2053492 doc optional ffmpeg-doc_4.1.4-1~deb10u1_all.deb
+ 6b6d8a1fbfada7254660aea8d5f5f162 28811 video optional ffmpeg_4.1.4-1~deb10u1_amd64.buildinfo
+ c0c62cbe9fc09e69947e9795b12d7484 1425304 video optional ffmpeg_4.1.4-1~deb10u1_amd64.deb
+ 76e05938455135798716f61062dad2fd 5338684 libdevel optional libavcodec-dev_4.1.4-1~deb10u1_amd64.deb
+ 2f4f132458cd0552a7f7a1fad1959995 20099200 debug optional libavcodec-extra58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 04e8b1c3d03725379214d6f45b9948a5 4821580 libs optional libavcodec-extra58_4.1.4-1~deb10u1_amd64.deb
+ 864ed8ca79caa6c67c3496b2eff7372a 54076 metapackages optional libavcodec-extra_4.1.4-1~deb10u1_all.deb
+ fe66d1e85a287f72f7306db09ec9195e 20089320 debug optional libavcodec58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 9bc5d70e36b12d7f58dafb589170be8e 4820408 libs optional libavcodec58_4.1.4-1~deb10u1_amd64.deb
+ 9d85c9cafffde603f22fc4890894c1e9 125824 libdevel optional libavdevice-dev_4.1.4-1~deb10u1_amd64.deb
+ cc2f63e736ba39e4b290cc59c3840451 496356 debug optional libavdevice58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 31b416897e0734916fe2888861b249bc 114460 libs optional libavdevice58_4.1.4-1~deb10u1_amd64.deb
+ 62b02d0e3ecb0446601f72af0f0ce641 1200660 libdevel optional libavfilter-dev_4.1.4-1~deb10u1_amd64.deb
+ d5609f7282886c8c2be99f05e9f97d11 3851484 debug optional libavfilter-extra7-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ a6c9320df25902680565cf81caeaabda 1042048 libs optional libavfilter-extra7_4.1.4-1~deb10u1_amd64.deb
+ ef3f23c7379f4c95a644f59adb71a462 54076 metapackages optional libavfilter-extra_4.1.4-1~deb10u1_all.deb
+ e338a1ab7e65ea7b05160ffde01a19de 3835908 debug optional libavfilter7-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ fe633d04926a3236dc7a8518a0b61c0a 1038512 libs optional libavfilter7_4.1.4-1~deb10u1_amd64.deb
+ 0080642538b7c7ed105ee20bb59e8943 1198192 libdevel optional libavformat-dev_4.1.4-1~deb10u1_amd64.deb
+ b6fd84d9a91e955dfc6122df413af047 6466492 debug optional libavformat58-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ a9501b9886baa1434c82d56237f16d70 1000048 libs optional libavformat58_4.1.4-1~deb10u1_amd64.deb
+ 2b5d0f2b5431d3249cf1201894afe61c 102468 libdevel optional libavresample-dev_4.1.4-1~deb10u1_amd64.deb
+ 1d33b31a65044e63a216909fe9efc185 97344 debug optional libavresample4-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ b92ac3c8676f39875a5d84eb1829cc56 92724 libs optional libavresample4_4.1.4-1~deb10u1_amd64.deb
+ 7d93870c0c0261e76a621e5b8317977f 349056 libdevel optional libavutil-dev_4.1.4-1~deb10u1_amd64.deb
+ ca8065d5dbc35802ac081d40f5ecbf8c 440708 debug optional libavutil56-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 0110762d153b30712886625ef1d37364 231072 libs optional libavutil56_4.1.4-1~deb10u1_amd64.deb
+ 94ada1adc045a91cff025a5bf888d70d 92212 libdevel optional libpostproc-dev_4.1.4-1~deb10u1_amd64.deb
+ a7c481d900cc0b2e0278e598fcc517f3 87308 debug optional libpostproc55-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 19f0a15e05111c0b85e186a126678625 91728 libs optional libpostproc55_4.1.4-1~deb10u1_amd64.deb
+ 658791d365e81b55edf1e99820e9b109 109112 libdevel optional libswresample-dev_4.1.4-1~deb10u1_amd64.deb
+ f885f29cf10f91d282e92ac67b6dd687 105400 debug optional libswresample3-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ 2c0e8d1ea8f75c8e1940692e4319cc98 95692 libs optional libswresample3_4.1.4-1~deb10u1_amd64.deb
+ 4a1d5ff7c4d0b5c7ce123146feb9f9f6 211876 libdevel optional libswscale-dev_4.1.4-1~deb10u1_amd64.deb
+ 850513858ebeea4d0f3b90ac0cf073e0 674760 debug optional libswscale5-dbgsym_4.1.4-1~deb10u1_amd64.deb
+ de23f79ebf17e2dad4112ed23ba7cf8f 193056 libs optional libswscale5_4.1.4-1~deb10u1_amd64.deb
